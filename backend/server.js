@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 0
 // Import Routes
-const fileRoutes = require("./routes/fileRoutes");
+const fileRoutes = require("./routes/authRoutes");
 const authRoutes = require("./routes/authRoutes");
 
 // Use Routes
